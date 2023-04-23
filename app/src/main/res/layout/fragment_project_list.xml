@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the XML code for the Project List Fragment-->
+<!-- I haven't deeply commented this page because all the items I used on this page are self explanatory-->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".ProjectListFragment" >
+
+    <Button
+        android:id="@+id/Proj_load_more"
+        android:layout_width="273dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="monospace"
+        android:text="@string/load_more_projects_button"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Proj2_description1"
+        android:layout_width="381dp"
+        android:layout_height="55dp"
+        android:fontFamily="casual"
+        android:text="@string/project2_title"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewadd"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:fontFamily="monospace"
+        android:text="@string/page_break"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.475"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/projtoDetailBpca"
+        android:layout_width="133dp"
+        android:layout_height="61dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/project_2_details_button"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.863"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <ImageView
+        android:id="@+id/Proj2_image1"
+        android:layout_width="148dp"
+        android:layout_height="114dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598"
+        app:srcCompat="@drawable/tractor"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/tractor" />
+
+    <TextView
+        android:id="@+id/Proj2_title"
+        android:layout_width="138dp"
+        android:layout_height="42dp"
+        android:fontFamily="monospace"
+        android:text="@string/project2_header"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Proj1_description1"
+        android:layout_width="374dp"
+        android:layout_height="61dp"
+        android:fontFamily="casual"
+        android:text="@string/project1_description"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Proj2_image2"
+        android:layout_width="111dp"
+        android:layout_height="104dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671"
+        app:srcCompat="@drawable/spider_removebg_preview"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/spider_removebg_preview" />
+
+    <TextView
+        android:id="@+id/Proj1_title"
+        android:layout_width="117dp"
+        android:layout_height="38dp"
+        android:fontFamily="monospace"
+        android:text="@string/project1_header"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Proj_screen_button"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="monospace"
+        android:text="@string/projects_title"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/Proj1_image"
+        android:layout_width="233dp"
+        android:layout_height="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.881"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19"
+        app:srcCompat="@drawable/website_screenshot"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/website_screenshot" />
+
+    <Button
+        android:id="@+id/projtoDetailNrk"
+        android:layout_width="124dp"
+        android:layout_height="56dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/project_1_details_button"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

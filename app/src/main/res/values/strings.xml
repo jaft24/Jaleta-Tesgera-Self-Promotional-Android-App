@@ -1,0 +1,57 @@
+
+<!-- Here is a list of all the string I have used in the Fragment Pages -->
+<resources>
+    <string name="app_name">JTesgera</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello!</string>
+    <string name="bib_greeting">Welcome to my BIOGRAPHY. Here is a summary about me !</string>
+    <string name="summary_text"><![CDATA[A Junior eager to jump into the professional software engineering side of Computer Science. ]]></string>
+    <string name="interests_text">I love playing Basketball, drawing, and playing video games as well.</string>
+    <string name="interests_title">Interests - - - - - - - -</string>
+    <string name="summary_title">Summary - - - - - - - - -</string>
+    <string name="biography_title">BIOGRAPHY</string>
+    <string name="work_text">Student Manager at ITS Concordia College · Part-time</string>
+    <string name="work_title">Work Experience - - - - - -</string>
+    <string name="breaking_the_poverty_cycle_title">BREAKING THE POVERTY CYCLE</string>
+    <string name="gallery_title">----- Gallery ------</string>
+    <string name="load_next_project"><![CDATA[Load Next PROJECT >]]></string>
+    <string name="Breaking_poverty_cycle_description">• Collaborated with NDSU in a competition by Oxford University, examined the agricultural poverty cycle in Ethiopia \n • Introduced utilization of AI by proposing an Arduino based land information analyzing prototype \n• Employed vast use of embedded software development</string>
+    <string name="email">Email:*</string>
+    <string name="newrozkebab_description">• Full-stack web development from scratch using multiple front-end languages like HTML, CSS, and Java Script utilizing VS code, and team collaboration over Git to build an aesthetic 15-page local restaurant website \n • Developed admin control, login and carting systems, stored cookies, validated, stored, and emailed user \n • Site: http://newrozkabab.jaletaftesgera.com/</string>
+    <string name="newroz_kebab_website_title">NEWROZ KEBAB WEBSITE</string>
+    <string name="phone">Phone:</string>
+    <string name="submit_button">Submit</string>
+    <string name="message">Message:</string>
+    <string name="name">Name:*</string>
+    <string name="contact_me_title">CONTACT ME</string>
+    <string name="hello_world_title"><![CDATA[< Hello World />]]></string>
+    <string name="underline">-----------</string>
+    <string name="home_page_greeting">Welcome to my Home page. Please visit the following links to learn more about me !</string>
+    <string name="open_bracket">{</string>
+    <string name="close_bracket">}</string>
+    <string name="comma">,</string>
+    <string name="biography_button">BIOGRAPHY</string>
+    <string name="projects_button">PROJECTS</string>
+    <string name="contact_me_button">CONTACT ME</string>
+    <string name="options_button">OPTIONS</string>
+    <string name="terms_of_service_button">TERMS OF SERVICE</string>
+    <string name="more_settings_button">MORE SETTINGS</string>
+    <string name="help_button">HELP</string>
+    <string name="web_version_label">Web Version</string>
+    <string name="sound_label">Sound:</string>
+    <string name="language_button">ENGLISH</string>
+    <string name="dark_mode_toggle_label">Dark Mode:</string>
+    <string name="language_label">Language:</string>
+    <string name="options_title">OPTIONS</string>
+    <string name="load_more_projects_button">↓ Load more PROJECTS ↓</string>
+    <string name="project2_title">Breaking the Poverty Cycle of Agriculture | Arduino, SolidWorks CAD, KUMU, Canva Apr 2022 - Present</string>
+    <string name="page_break">----------</string>
+    <string name="project_2_details_button">project 2 Details</string>
+    <string name="project2_header">Project II</string>
+    <string name="project1_description">New Roz Kebab Restaurant Website | HTML, CSS, Java Script, PHP, SQL, Git Sep 2022 - Present</string>
+    <string name="project1_header">Project I</string>
+    <string name="projects_title">PROJECTS</string>
+    <string name="project_1_details_button">project 1 Details</string>
+</resources>

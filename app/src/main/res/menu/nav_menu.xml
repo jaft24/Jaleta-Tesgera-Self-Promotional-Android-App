@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- This is the code for the menu graph -->
+<!--  I referenced the source:https://www.youtube.com/watch?v=zQh-QGGKPw0 -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- This is the first unnamed group that has Home, Biography, and Contact Me -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/nav_biography"
+            android:title="Biography"/>
+        <item
+            android:id="@+id/nav_contactMe"
+            android:title="Contact Me"/>
+    </group>
+
+    <!-- This is the second group named Projects that has Project List, and 2 Project Descriptions -->
+    <item android:title="Projects">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_projectList"
+                    android:title="Project List"/>
+
+                <item
+                    android:id="@+id/nav_projectDetail1"
+                    android:title="NewRoz Kebab Website"/>
+
+                <item
+                    android:id="@+id/nav_projectDetail2"
+                    android:title="Breaking the Poverty Cycle"/>
+            </group>
+
+        </menu>
+    </item>
+
+    <!-- This is the third group with title Settings that has the Options Fragment-->
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_options"
+                    android:title="Options"/>
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the XML code for the First Project Detail Fragment -->
+<!-- I haven't deeply commented this page because all the items I used on this page are self explanatory -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".NewRozKebabFragment" >
+
+    <Button
+        android:id="@+id/projDet1LoadNext"
+        android:layout_width="273dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="monospace"
+        android:text="@string/load_next_project"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Proj1_Det_description"
+        android:layout_width="327dp"
+        android:layout_height="207dp"
+        android:fontFamily="casual"
+        android:text="@string/newrozkebab_description"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.562"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="135dp"
+        android:layout_height="90dp"
+        android:src="@drawable/website_screenshot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.822" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="141dp"
+        android:layout_height="95dp"
+        android:src="@drawable/menuss"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.82" />
+
+    <TextView
+        android:id="@+id/Proj1_Det_title_U"
+        android:layout_width="283dp"
+        android:layout_height="34dp"
+        android:fontFamily="monospace"
+        android:text="@string/gallery_title"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/oj__Det_screen_button"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="monospace"
+        android:text="@string/newroz_kebab_website_title"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="347dp"
+        android:layout_height="193dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189"
+        app:srcCompat="@drawable/nrkjpg" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

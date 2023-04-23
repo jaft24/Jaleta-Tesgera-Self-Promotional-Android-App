@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- This is the XML code for the Bibliography Fragment-->
+<!-- I haven't deeply commented this page because all the items I used on this page are self explanatory-->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    tools:context=".BiographyFragment" >
+
+    <TextView
+        android:id="@+id/Greetings_subheading2"
+        android:layout_width="359dp"
+        android:layout_height="66dp"
+        android:fontFamily="casual"
+        android:text="@string/bib_greeting"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.461" />
+
+    <TextView
+        android:id="@+id/Summary_description"
+        android:layout_width="359dp"
+        android:layout_height="66dp"
+        android:fontFamily="casual"
+        android:text="@string/summary_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.633"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/Interests_description"
+        android:layout_width="358dp"
+        android:layout_height="68dp"
+        android:fontFamily="casual"
+        android:text="@string/interests_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Interests_heading"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:fontFamily="monospace"
+        android:text="@string/interests_title"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Summary_heading"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:fontFamily="monospace"
+        android:text="@string/summary_title"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.452"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/Greetings_subheading1"
+        android:layout_width="230dp"
+        android:layout_height="41dp"
+        android:fontFamily="casual"
+        android:text="@string/hello"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385" />
+
+    <Button
+        android:id="@+id/Bib_screen_button"
+        android:layout_width="335dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:fontFamily="monospace"
+        android:text="@string/biography_title"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Work_exo_description"
+        android:layout_width="356dp"
+        android:layout_height="62dp"
+        android:fontFamily="casual"
+        android:text="@string/work_text"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.436"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Work_exp_heading"
+        android:layout_width="358dp"
+        android:layout_height="67dp"
+        android:fontFamily="monospace"
+        android:text="@string/work_title"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/Head_shot"
+        android:layout_width="178dp"
+        android:layout_height="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175"
+        app:srcCompat="@drawable/headshot"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/headshot" />
+</androidx.constraintlayout.widget.ConstraintLayout>

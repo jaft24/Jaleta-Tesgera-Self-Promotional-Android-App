@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- I built this through the navigation graphs manually, and this is the source code -->
+<!--  I referenced our book and the source:https://www.youtube.com/watch?v=BCSlZIUj18Y&t=135s -->
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.jtesgera.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_biographyFragment"
+            app:destination="@id/biographyFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_contactFragment"
+            app:destination="@id/contactFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_projectListFragment"
+            app:destination="@id/projectListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/biographyFragment"
+        android:name="com.example.jtesgera.BiographyFragment"
+        android:label="fragment_biography"
+        tools:layout="@layout/fragment_biography" >
+        <action
+            android:id="@+id/action_biographyFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="com.example.jtesgera.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" >
+        <action
+            android:id="@+id/action_contactFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/optionsFragment"
+        android:name="com.example.jtesgera.OptionsFragment"
+        android:label="fragment_options"
+        tools:layout="@layout/fragment_options" >
+        <action
+            android:id="@+id/action_optionsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/projectListFragment"
+        android:name="com.example.jtesgera.ProjectListFragment"
+        android:label="fragment_project_list"
+        tools:layout="@layout/fragment_project_list" >
+        <action
+            android:id="@+id/action_projectListFragment_to_breakingPovertyCycleFragment2"
+            app:destination="@id/breakingPovertyCycleFragment2" />
+        <action
+            android:id="@+id/action_projectListFragment_to_newRozKebabFragment"
+            app:destination="@id/newRozKebabFragment" />
+        <action
+            android:id="@+id/action_projectListFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/breakingPovertyCycleFragment2"
+        android:name="com.example.jtesgera.BreakingPovertyCycleFragment"
+        android:label="fragment_breaking_poverty_cycle"
+        tools:layout="@layout/fragment_breaking_poverty_cycle" >
+        <action
+            android:id="@+id/action_breakingPovertyCycleFragment2_to_projectListFragment"
+            app:destination="@id/projectListFragment" />
+        <action
+            android:id="@+id/action_breakingPovertyCycleFragment2_to_newRozKebabFragment"
+            app:destination="@id/newRozKebabFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newRozKebabFragment"
+        android:name="com.example.jtesgera.NewRozKebabFragment"
+        android:label="fragment_new_roz_kebab"
+        tools:layout="@layout/fragment_new_roz_kebab" >
+        <action
+            android:id="@+id/action_newRozKebabFragment_to_optionsFragment"
+            app:destination="@id/optionsFragment" />
+        <action
+            android:id="@+id/action_newRozKebabFragment_to_breakingPovertyCycleFragment2"
+            app:destination="@id/breakingPovertyCycleFragment2" />
+    </fragment>
+</navigation>
